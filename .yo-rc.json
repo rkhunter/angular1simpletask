@@ -1,0 +1,11 @@
+{
+  "generator-angular-pro": {
+    "version": "2.1.3",
+    "props": {
+      "appName": "angular1simpletask",
+      "target": "web",
+      "ui": "bootstrap",
+      "projectName": "angular-1-simpletask"
+    }
+  }
+}
