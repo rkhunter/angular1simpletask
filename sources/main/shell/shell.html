@@ -17,16 +17,19 @@
         </div>
         <div class="navbar-collapse" uib-collapse="shell.menuHidden">
           <ul class="nav navbar-nav">
-            <li ng-class="{ active: shell.stateContains('app.home') }">
-              <a class="nav-item text-uppercase" ui-sref="app.home">
-                <i class="fa fa-home"></i>
-                <span translate>Home</span>
+            <li ng-class="{ active: shell.stateContains('app.page1') }">
+              <a class="nav-item text-uppercase" ui-sref="app.page1.whatis">
+                <span translate>Page</span> 1
               </a>
             </li>
-            <li ng-class="{ active: shell.stateContains('app.about') }">
-              <a class="nav-item text-uppercase" ui-sref="app.about">
-                <i class="fa fa-question-circle"></i>
-                <span translate>About</span>
+            <li ng-class="{ active: shell.stateContains('app.page2') }">
+              <a class="nav-item text-uppercase" ui-sref="app.page2.ballast1">
+                <span translate>Page</span> 2
+              </a>
+            </li>
+            <li ng-class="{ active: shell.stateContains('app.page3') }">
+              <a class="nav-item text-uppercase" ui-sref="app.page3.ballast1">
+                <span translate>Page</span> 3
               </a>
             </li>
           </ul>

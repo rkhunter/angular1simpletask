@@ -3,7 +3,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: en-US\n"
+"Language: bg-BG\n"
 
 msgid "APP_NAME"
 msgstr "angular1simpletask"
@@ -20,11 +20,11 @@ msgstr "Page"
 #: Page 1
 
 msgid "What is Lorem Ipsum?"
-msgstr "What is Lorem Ipsum?"
+msgstr "Какво е Lorem Ipsum?"
 
 msgid "Where does it come from?"
-msgstr "Where does it come from?"
+msgstr "Откъде идва от?"
 
 msgid "Why do we use it?"
-msgstr "Why do we use it?"
+msgstr "Защо да го използваме?"
 

@@ -50,7 +50,7 @@ let config: IApplicationConfig = {
   // Supported languages
   supportedLanguages: [
     'en-US',
-    'fr-FR'
+    'bg-BG'
   ]
 
 };

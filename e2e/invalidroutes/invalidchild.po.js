@@ -5,8 +5,9 @@
 
 'use strict';
 
-var About = function() {
-  this.jumbotron = element(by.css('.jumbotron'));
+var Page = function() {
+    this.h1 = element(by.css('h1'));
+    this.h3 = element(by.css('h3'));
 };
 
-module.exports = new About();
+module.exports = new Page();
