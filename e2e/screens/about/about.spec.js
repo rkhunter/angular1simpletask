@@ -5,12 +5,12 @@ describe('about', function() {
   var page;
 
   beforeEach(function() {
-    browser.get('/#/about');
+    browser.get('/#!/about');
     page = require('./about.po');
   });
 
   it('should contain version', function() {
-    expect(page.jumbotron.getText()).toMatch('Version');
+    expect(page.jumbotron.getText()).toContain('Version');
   });
 
 });

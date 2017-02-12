@@ -54,13 +54,14 @@
     "karma-junit-reporter": "^1.0.0",
     "karma-phantomjs-launcher": "~1.0.2",
     "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.26",
     "lodash": "^4.16.4",
     "main-bower-files": "^2.13.1",
     "merge-stream": "~1.0.0",
     "minimist": "^1.2.0",
     "ng-annotate-loader": "^0.2.0",
     "phantomjs-prebuilt": "^2.1.13",
-    "protractor-html-screenshot-reporter": "0.0.21",
+    "protractor-jasmine2-screenshot-reporter": "^0.3.3",
     "raw-loader": "^0.5.1",
     "remap-istanbul": "^0.9.1",
     "require-dir": "~0.3.0",
@@ -74,5 +75,6 @@
   },
   "engines": {
     "node": ">=4.0.0"
-  }
+  },
+  "dependencies": {}
 }
